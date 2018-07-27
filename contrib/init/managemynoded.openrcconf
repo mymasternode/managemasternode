@@ -1,0 +1,26 @@
+# /etc/conf.d/managemynoded: config file for /etc/init.d/managemynoded
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/managemynode/managemynode.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/managemynoded"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/managemynoded.pid"
+
+# Where to write managemynoded data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/managemynoded"
+
+# User and group to own managemynoded process
+#BITCOIND_USER="managemynode"
+#BITCOIND_GROUP="managemynode"
+
+# Path to managemynoded executable
+#BITCOIND_BIN="/usr/bin/managemynoded"
+
+# Nice value to run managemynoded under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

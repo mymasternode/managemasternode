@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/managemynode_bg.qm</file>
+        <file alias="ca">locale/managemynode_ca.qm</file>
+        <file alias="cs">locale/managemynode_cs.qm</file>
+        <file alias="da">locale/managemynode_da.qm</file>
+        <file alias="de">locale/managemynode_de.qm</file>
+        <file alias="en">locale/managemynode_en.qm</file>
+        <file alias="en_US">locale/managemynode_en_US.qm</file>
+        <file alias="es">locale/managemynode_es.qm</file>
+        <file alias="fi">locale/managemynode_fi.qm</file>
+        <file alias="fr_FR">locale/managemynode_fr_FR.qm</file>
+        <file alias="hr">locale/managemynode_hr.qm</file>
+        <file alias="it">locale/managemynode_it.qm</file>
+        <file alias="ja">locale/managemynode_ja.qm</file>
+        <file alias="ko_KR">locale/managemynode_ko_KR.qm</file>
+        <file alias="nl">locale/managemynode_nl.qm</file>
+        <file alias="pl">locale/managemynode_pl.qm</file>
+        <file alias="pt">locale/managemynode_pt.qm</file>
+        <file alias="pt_BR">locale/managemynode_pt_BR.qm</file>
+        <file alias="ro_RO">locale/managemynode_ro_RO.qm</file>
+        <file alias="ru">locale/managemynode_ru.qm</file>
+        <file alias="sk">locale/managemynode_sk.qm</file>
+        <file alias="sv">locale/managemynode_sv.qm</file>
+        <file alias="tr">locale/managemynode_tr.qm</file>
+        <file alias="uk">locale/managemynode_uk.qm</file>
+        <file alias="zh_CN">locale/managemynode_zh_CN.qm</file>
+        <file alias="zh_TW">locale/managemynode_zh_TW.qm</file>
+    </qresource>
+</RCC>

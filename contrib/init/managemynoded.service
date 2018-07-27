@@ -1,0 +1,26 @@
+[Unit]
+Description=ManageMyNode's distributed currency daemon
+After=network.target
+
+[Service]
+User=managemynode
+Group=managemynode
+
+Type=forking
+PIDFile=/var/lib/managemynoded/managemynoded.pid
+
+ExecStart=/usr/bin/managemynoded -daemon -pid=/var/lib/managemynoded/managemynoded.pid \
+          -conf=/etc/managemynode/managemynode.conf -datadir=/var/lib/managemynoded
+
+ExecStop=-/usr/bin/managemynode-cli -conf=/etc/managemynode/managemynode.conf \
+         -datadir=/var/lib/managemynoded stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

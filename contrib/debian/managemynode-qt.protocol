@@ -1,0 +1,11 @@
+[Protocol]
+exec=managemynode-qt '%u'
+protocol=managemynode
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

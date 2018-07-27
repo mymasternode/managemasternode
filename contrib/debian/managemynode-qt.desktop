@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ManageMyNode
+Comment=ManageMyNode P2P Cryptocurrency
+Comment[fr]=ManageMyNode, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ManageMyNode, eşten eşe kriptografik sanal para birimi
+Exec=managemynode-qt %u
+Terminal=false
+Type=Application
+Icon=managemynode128
+MimeType=x-scheme-handler/managemynode;
+Categories=Office;Finance;
